@@ -20,6 +20,7 @@ module.exports = {
     //example rules
 
     'no-unused-vars': 'warn', // default in airbnb is error
+    'import/no-extraneous-dependencies': ['error', { devDependencies: true, optionalDependencies: false, peerDependencies: false }],
 
     //you can disable add or remove rules based on your coding taste
   },
