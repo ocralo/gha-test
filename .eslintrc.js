@@ -13,15 +13,15 @@ module.exports = {
   },
   plugins: ['react', 'prettier'],
   rules: {
-    //here we can change any rule "off/error/warn"
+    // here we can change any rule "off/error/warn"
     'prettier/prettier': 'error', // or warn
     // this is needed for prettier to work
 
-    //example rules
+    // example rules
 
     'no-unused-vars': 'warn', // default in airbnb is error
     'import/no-extraneous-dependencies': ['error', { devDependencies: true, optionalDependencies: false, peerDependencies: false }],
 
-    //you can disable add or remove rules based on your coding taste
+    // you can disable add or remove rules based on your coding taste
   },
 };
