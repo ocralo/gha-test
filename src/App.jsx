@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Button from './components/Button';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -14,6 +15,7 @@ function App() {
           <button type="button" onClick={() => setCount((currentCount) => currentCount + 1)}>
             count is: {count}
           </button>
+          <Button>GG</Button>
         </p>
         <p>
           Edit <code>App.jsx</code> and save to test HMR updates.
